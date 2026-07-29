@@ -12,7 +12,8 @@ An end-to-end data analytics project for a multi-outlet food & beverage chain in
 |---|---|---|
 | Revenue/profit trends, zone & format breakdowns | ML-flagged at-risk outlets with driver explanations | Outlets clustered into performance tiers |
 
-*(Add screenshots here — e.g. `docs/screenshot_overview.png`)*
+<img width="958" height="449" alt="image" src="https://github.com/user-attachments/assets/b2d45306-a26e-4bb9-8e62-33c58071f15c" />
+
 
 ---
 
@@ -61,7 +62,7 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-Then open the URL Streamlit prints — usually `http://localhost:8501`.
+Then open the URL Streamlit prints — usually `https://orderstream-vj6bejbnn4j22pnkikvufp.streamlit.app/`.
 
 To explore the full analysis (statistical tests, model comparisons, SHAP plots, forecasting) instead of just the dashboard, open `brewbite_analytics_notebook.ipynb` in Jupyter.
 
